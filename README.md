@@ -3,56 +3,55 @@ These steps are only tested with windows. Not sure if this will work with any ot
 
 ## Initial Steps To follow -
 
-1 install python (latest version).
+1. Install python (latest version).
 
-2 download youtube-dl (Latest)
-```
+2. download youtube-dl (Latest)
 	[Download Page](https://rg3.github.io/youtube-dl/download.html)
-```	
-	here download "windows.exe".
 
-3 copy the youtube-dl file to floder where u want to download the video/s.
+	* Here download "windows.exe".
 
-4 "shift+RightClick" on the folder.
+3. copy the youtube-dl file to floder where u want to download the video/s.
 
-5 Select "open command Window here".
+4. "shift+RightClick" on the folder.
 
-6 Paste the above provided command line
+5. Select "open command Window here".
+
+6. Paste the above provided command line
 **********************************************************************
 
 
-## command to use
+## Commands..
 
-## (For Single Vid)Eg-
+## For Single Video
 ```
 youtube-dl "Paste playlist link here within double quotes"
 ```
 
 
 
-## (For Playlist with index)Eg-
+## For Playlist
 
-### 1st Way(To download the full playlist with proper name and order)
+### 1. - To download the full playlist with proper name and order
 ```
 youtube-dl -icAt "Paste playlist link here within double quotes"
 ```
 
 
 
-### 2nd way(To download with name and index but starting from 00000)
+### 2. - To download with name and index but starting from 00000
 ```
 youtube-dl -ic -o %(autonumber)s-%(title)s.%(ext)s "Paste playlist link here within double quotes"
 ```
 
 
 
-### 3rd way(To download whole playist with name and index)
+### 3. - To download whole playist with name and index
 ```													 
 youtube-dl -ic -o %(playlist_index)s-%(title)s.%(ext)s "Paste playlist link here within double quotes"
 ```
 
 
-### 4th way(to start from mid to the end of playlist)
+### 4. - To start from mid to the end of playlist
 ```
 youtube-dl -ic -o %(playlist_index)s-%(title)s.%(ext)s --playlist-start <Video Number Here without brackets> "Paste playlist link here within double quotes"
 ```
@@ -60,6 +59,6 @@ youtube-dl -ic -o %(playlist_index)s-%(title)s.%(ext)s --playlist-start <Video N
 
 
 
-## link for option explanation
+## Link for other option explanation
 
 http://paste.ubuntu.com/6967883/
