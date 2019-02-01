@@ -53,7 +53,7 @@ youtube-dl -ic -o %(playlist_index)s-%(title)s.%(ext)s "Paste playlist link here
 
 ### 4. - To start from mid to the end of playlist
 ```
-youtube-dl -ic -o %(playlist_index)s-%(title)s.%(ext)s --playlist-start <Video Number Here without brackets> "Paste playlist link here within double quotes"
+youtube-dl -ic -o %(playlist_index)s-%(title)s.%(ext)s --playlist-start <Starting Video Number Here without brackets> "Paste playlist link here within double quotes"
 ```
 
 
