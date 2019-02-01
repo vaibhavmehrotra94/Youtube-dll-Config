@@ -10,7 +10,7 @@ These steps are only tested with windows. Not sure if this will work with any ot
 
 	* Here download "windows.exe".
 
-3. Copy the youtube-dl file to floder where u want to download the video/s.
+3. Copy the youtube-dl file to folder where u want to download the video/s.
 
 4. "shift+RightClick" on the folder for options menu.
 
