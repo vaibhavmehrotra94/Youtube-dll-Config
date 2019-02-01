@@ -5,18 +5,18 @@ These steps are only tested with windows. Not sure if this will work with any ot
 
 1. Install python (latest version).
 
-2. download youtube-dl (Latest)
+2. Download youtube-dl (Latest)
 	[Download Page](https://rg3.github.io/youtube-dl/download.html)
 
 	* Here download "windows.exe".
 
-3. copy the youtube-dl file to floder where u want to download the video/s.
+3. Copy the youtube-dl file to floder where u want to download the video/s.
 
-4. "shift+RightClick" on the folder.
+4. "shift+RightClick" on the folder for options menu.
 
-5. Select "open command Window here".
+5. Select "open command Window here" in menu.
 
-6. Paste the above provided command line
+6. Paste & Run desired command in the cmd-promt after configuring them.
 **********************************************************************
 
 
