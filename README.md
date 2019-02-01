@@ -20,16 +20,16 @@ These steps are only tested with windows. Not sure if this will work with any ot
 **********************************************************************
 
 
-## Commands..
+## COMMANDS
 
-## For Single Video
+## Single Video
 ```
 youtube-dl "Paste playlist link here within double quotes"
 ```
 
 
 
-## For Playlist
+## Playlist
 
 ### 1. - To download the full playlist with proper name and order
 ```
